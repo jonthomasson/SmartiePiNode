@@ -400,7 +400,7 @@ $EndComp
 Connection ~ 2355 3040
 Connection ~ 2075 3040
 Wire Wire Line
-	2835 3040 1800 3040
+	1585 3040 2835 3040
 $Comp
 L C_Small C?
 U 1 1 5B043391
@@ -447,16 +447,12 @@ F 3 "" H 2565 4090 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2835 3640 2615 3640
-Text Label 2615 3640 0    60   ~ 0
-+3V3
 Wire Wire Line
 	2835 3790 2565 3790
 Wire Wire Line
 	2565 3790 2565 3990
 Wire Wire Line
 	2315 4090 2095 4090
-Text Label 2095 4090 0    60   ~ 0
-+3V3
 Wire Wire Line
 	2815 4090 2945 4090
 Wire Wire Line
@@ -534,5 +530,15 @@ Wire Wire Line
 	4710 3295 4710 3540
 Connection ~ 4710 3040
 Wire Wire Line
-	4235 3040 5545 3040
+	4235 3040 5795 3040
+Connection ~ 1800 3040
+Text Label 1585 3040 0    60   ~ 0
++VIN
+Text Label 2095 4090 0    60   ~ 0
++VIN
+Connection ~ 5545 3040
+Text Label 5795 3040 2    60   ~ 0
++3V3
+Text Label 2615 3640 0    60   ~ 0
++VIN
 $EndSCHEMATC
