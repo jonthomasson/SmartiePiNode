@@ -447,8 +447,6 @@ F 3 "" H 2565 4090 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2835 3640 2615 3640
-Text Label 2615 3640 0    60   ~ 0
-+3V3
 Wire Wire Line
 	2835 3790 2565 3790
 Wire Wire Line
@@ -541,4 +539,6 @@ Text Label 2095 4090 0    60   ~ 0
 Connection ~ 5545 3040
 Text Label 5795 3040 2    60   ~ 0
 +3V3
+Text Label 2615 3640 0    60   ~ 0
++VIN
 $EndSCHEMATC

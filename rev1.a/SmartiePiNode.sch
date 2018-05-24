@@ -171,6 +171,8 @@ LIBS:dk_TVS-Diodes
 LIBS:dk_TVS-Mixed-Technology
 LIBS:dk_USB-DVI-HDMI-Connectors
 LIBS:intersil-isl91127ir
+LIBS:st-stm32l052-lqfp48
+LIBS:SmartiePiNode-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -541,4 +543,15 @@ Text Label 5795 3040 2    60   ~ 0
 +3V3
 Text Label 2615 3640 0    60   ~ 0
 +VIN
+$Comp
+L STM32L052_LQFP48 U?
+U 1 1 5B063B4D
+P 8785 3375
+F 0 "U?" H 9074 3222 60  0000 C CNN
+F 1 "STM32L052_LQFP48" H 9074 3116 60  0000 C CNN
+F 2 "" H 8785 3375 60  0001 C CNN
+F 3 "" H 8785 3375 60  0001 C CNN
+	1    8785 3375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

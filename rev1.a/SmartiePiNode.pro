@@ -1,4 +1,4 @@
-update=5/21/2018 9:19:16 PM
+update=5/23/2018 9:10:02 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -201,3 +201,4 @@ LibName169=C:/Users/Stache/Documents/KiCad Projects/digikey-kicad-library/digike
 LibName170=C:/Users/Stache/Documents/KiCad Projects/digikey-kicad-library/digikey-symbols/dk_TVS-Mixed-Technology
 LibName171=C:/Users/Stache/Documents/KiCad Projects/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors
 LibName172=libs/intersil-isl91127ir
+LibName173=libs/st-stm32l052-lqfp48
