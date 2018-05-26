@@ -211,38 +211,6 @@ F 3 "" H 2730 5470 50  0001 C CNN
 	1    2730 5470
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2050 5940 2000 5940
-Wire Wire Line
-	2000 5940 2000 5470
-Wire Wire Line
-	2000 5470 2580 5470
-Wire Wire Line
-	2050 5840 2000 5840
-Connection ~ 2000 5840
-Wire Wire Line
-	3450 5940 3525 5940
-Wire Wire Line
-	3525 5940 3525 5470
-Wire Wire Line
-	3525 5470 2880 5470
-Wire Wire Line
-	3450 5840 3525 5840
-Connection ~ 3525 5840
-Wire Wire Line
-	2050 6590 2000 6590
-Wire Wire Line
-	2000 6590 2000 6140
-Connection ~ 2000 6140
-Wire Wire Line
-	2050 6240 2000 6240
-Connection ~ 2000 6240
-Wire Wire Line
-	2050 6340 2000 6340
-Connection ~ 2000 6340
-Wire Wire Line
-	2050 6440 2000 6440
-Connection ~ 2000 6440
 $Comp
 L GND #PWR?
 U 1 1 5B041A53
@@ -254,17 +222,6 @@ F 3 "" H 2950 7305 50  0001 C CNN
 	1    2950 7305
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 7240 2650 7305
-Wire Wire Line
-	2650 7305 2950 7305
-Connection ~ 2950 7305
-Wire Wire Line
-	2750 7240 2750 7305
-Connection ~ 2750 7305
-Wire Wire Line
-	2850 7240 2850 7305
-Connection ~ 2850 7305
 $Comp
 L C_Small C?
 U 1 1 5B041B4C
@@ -276,10 +233,6 @@ F 3 "" H 4205 6295 50  0001 C CNN
 	1    4205 6295
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4205 6140 4205 6195
-Wire Wire Line
-	4205 6395 4205 6475
 $Comp
 L GND #PWR?
 U 1 1 5B041F18
@@ -291,15 +244,6 @@ F 3 "" H 4205 6475 50  0001 C CNN
 	1    4205 6475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3525 6440 3450 6440
-Connection ~ 3525 6140
-Wire Wire Line
-	3450 6240 3525 6240
-Connection ~ 3525 6240
-Wire Wire Line
-	3450 6340 3525 6340
-Connection ~ 3525 6340
 $Comp
 L C_Small C?
 U 1 1 5B042347
@@ -311,10 +255,6 @@ F 3 "" H 4485 6295 50  0001 C CNN
 	1    4485 6295
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4485 6140 4485 6195
-Wire Wire Line
-	4485 6395 4485 6475
 $Comp
 L GND #PWR?
 U 1 1 5B04234F
@@ -337,10 +277,6 @@ F 3 "" H 4760 6295 50  0001 C CNN
 	1    4760 6295
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4760 6140 4760 6195
-Wire Wire Line
-	4760 6395 4760 6475
 $Comp
 L GND #PWR?
 U 1 1 5B0423C8
@@ -352,14 +288,6 @@ F 3 "" H 4760 6475 50  0001 C CNN
 	1    4760 6475
 	1    0    0    -1  
 $EndComp
-Connection ~ 4205 6140
-Connection ~ 4485 6140
-Wire Wire Line
-	3925 6640 3450 6640
-Wire Wire Line
-	1570 6140 1570 6195
-Wire Wire Line
-	1570 6395 1570 6475
 $Comp
 L GND #PWR?
 U 1 1 5B04306E
@@ -371,10 +299,6 @@ F 3 "" H 1570 6475 50  0001 C CNN
 	1    1570 6475
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1290 6140 1290 6195
-Wire Wire Line
-	1290 6395 1290 6475
 $Comp
 L GND #PWR?
 U 1 1 5B04307C
@@ -386,10 +310,6 @@ F 3 "" H 1290 6475 50  0001 C CNN
 	1    1290 6475
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1015 6140 1015 6195
-Wire Wire Line
-	1015 6395 1015 6475
 $Comp
 L GND #PWR?
 U 1 1 5B04308A
@@ -401,10 +321,6 @@ F 3 "" H 1015 6475 50  0001 C CNN
 	1    1015 6475
 	-1   0    0    -1  
 $EndComp
-Connection ~ 1570 6140
-Connection ~ 1290 6140
-Wire Wire Line
-	800  6140 2050 6140
 $Comp
 L C_Small C?
 U 1 1 5B043391
@@ -449,18 +365,6 @@ F 3 "" H 1780 7190 50  0001 C CNN
 	1    1780 7190
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2050 6740 1830 6740
-Wire Wire Line
-	2050 6890 1780 6890
-Wire Wire Line
-	1780 6890 1780 7090
-Wire Wire Line
-	1530 7190 1310 7190
-Wire Wire Line
-	2030 7190 2160 7190
-Wire Wire Line
-	2160 7190 2160 7305
 $Comp
 L GND #PWR?
 U 1 1 5B043F5D
@@ -483,14 +387,6 @@ F 3 "" H 3715 6410 50  0001 C CNN
 	1    3715 6410
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3715 6510 3715 6750
-Connection ~ 3715 6640
-Wire Wire Line
-	3715 6140 3715 6310
-Connection ~ 3715 6140
-Wire Wire Line
-	3525 6140 3525 6440
 $Comp
 L R_Small R?
 U 1 1 5B044808
@@ -502,10 +398,6 @@ F 3 "" H 3715 6850 50  0001 C CNN
 	1    3715 6850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2950 7305 2950 7240
-Wire Wire Line
-	3715 6950 3715 7305
 $Comp
 L GND #PWR?
 U 1 1 5B044D4C
@@ -528,19 +420,10 @@ F 3 "" H 3925 6295 50  0001 C CNN
 	1    3925 6295
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3925 6140 3925 6195
-Wire Wire Line
-	3925 6395 3925 6640
-Connection ~ 3925 6140
-Wire Wire Line
-	3450 6140 5010 6140
-Connection ~ 1015 6140
 Text Label 800  6140 0    60   ~ 0
 +VIN
 Text Label 1310 7190 0    60   ~ 0
 +VIN
-Connection ~ 4760 6140
 Text Label 5010 6140 2    60   ~ 0
 +3V3
 Text Label 1830 6740 0    60   ~ 0
@@ -556,10 +439,6 @@ F 3 "" H 7485 2325 60  0001 C CNN
 	1    7485 2325
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9435 4025 9540 4025
-Wire Wire Line
-	9540 4025 9540 4425
 $Comp
 L GND #PWR?
 U 1 1 5B06F6EF
@@ -571,15 +450,6 @@ F 3 "" H 9540 4425 50  0001 C CNN
 	1    9540 4425
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9435 4325 9540 4325
-Connection ~ 9540 4325
-Wire Wire Line
-	9435 4225 9540 4225
-Connection ~ 9540 4225
-Wire Wire Line
-	9435 4125 9540 4125
-Connection ~ 9540 4125
 $Comp
 L R_Small R?
 U 1 1 5B075148
@@ -591,12 +461,6 @@ F 3 "" H 6370 3845 50  0001 C CNN
 	1    6370 3845
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 3725 6985 3725
-Wire Wire Line
-	6370 3725 6370 3745
-Wire Wire Line
-	6370 3945 6370 4015
 $Comp
 L GND #PWR?
 U 1 1 5B0753BB
@@ -608,72 +472,61 @@ F 3 "" H 6370 4015 50  0001 C CNN
 	1    6370 4015
 	1    0    0    -1  
 $EndComp
-Connection ~ 6370 3725
 Text Label 6200 3725 0    60   ~ 0
 BOOT0
 $Comp
 L USBMICROb X?
 U 1 1 5B080C0B
-P 1145 1370
-F 0 "X?" H 1017 1322 60  0000 R CNN
-F 1 "USBMICROb" H 1017 1428 60  0000 R CNN
-F 2 "" H 1145 1370 60  0000 C CNN
-F 3 "" H 1145 1370 60  0000 C CNN
-	1    1145 1370
+P 1165 4460
+F 0 "X?" H 1037 4412 60  0000 R CNN
+F 1 "USBMICROb" H 1037 4518 60  0000 R CNN
+F 2 "" H 1165 4460 60  0000 C CNN
+F 3 "" H 1165 4460 60  0000 C CNN
+	1    1165 4460
 	1    0    0    1   
 $EndComp
 $Comp
 L R_Small R?
 U 1 1 5B0811D7
-P 1930 1270
-F 0 "R?" V 1885 1155 50  0000 C CNN
-F 1 "0" V 1930 1270 50  0000 C CNN
-F 2 "" H 1930 1270 50  0001 C CNN
-F 3 "" H 1930 1270 50  0001 C CNN
-	1    1930 1270
+P 1950 4360
+F 0 "R?" V 1905 4245 50  0000 C CNN
+F 1 "0" V 1950 4360 50  0000 C CNN
+F 2 "" H 1950 4360 50  0001 C CNN
+F 3 "" H 1950 4360 50  0001 C CNN
+	1    1950 4360
 	0    1    1    0   
 $EndComp
 $Comp
 L R_Small R?
 U 1 1 5B0813A8
-P 1930 1370
-F 0 "R?" V 1885 1250 50  0000 C CNN
-F 1 "0" V 1930 1370 50  0000 C CNN
-F 2 "" H 1930 1370 50  0001 C CNN
-F 3 "" H 1930 1370 50  0001 C CNN
-	1    1930 1370
+P 1950 4460
+F 0 "R?" V 1905 4340 50  0000 C CNN
+F 1 "0" V 1950 4460 50  0000 C CNN
+F 2 "" H 1950 4460 50  0001 C CNN
+F 3 "" H 1950 4460 50  0001 C CNN
+	1    1950 4460
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1445 1270 1830 1270
-Wire Wire Line
-	1445 1370 1830 1370
-NoConn ~ 1445 1470
-Wire Wire Line
-	1445 1570 1525 1570
-Wire Wire Line
-	1525 1570 1525 1620
+NoConn ~ 1465 4560
 $Comp
 L GND #PWR?
 U 1 1 5B081C3A
-P 1525 1620
-F 0 "#PWR?" H 1525 1370 50  0001 C CNN
-F 1 "GND" H 1530 1447 50  0000 C CNN
-F 2 "" H 1525 1620 50  0001 C CNN
-F 3 "" H 1525 1620 50  0001 C CNN
-	1    1525 1620
+P 1545 4710
+F 0 "#PWR?" H 1545 4460 50  0001 C CNN
+F 1 "GND" H 1550 4537 50  0000 C CNN
+F 2 "" H 1545 4710 50  0001 C CNN
+F 3 "" H 1545 4710 50  0001 C CNN
+	1    1545 4710
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1445 1170 1875 1170
-Text Label 1875 1170 2    60   ~ 0
+Text Label 1895 4260 2    60   ~ 0
 +VUSB
 $Comp
 L SW_PUSH SW?
 U 1 1 5B082484
 P 5790 3625
-F 0 "SW?" H 5790 3880 50  0000 C CNN
-F 1 "SW_PUSH" H 5790 3789 50  0000 C CNN
+F 0 "SW?" H 5665 3720 50  0000 C CNN
+F 1 "SW_PUSH" H 5805 3565 50  0000 C CNN
 F 2 "" H 5790 3625 60  0000 C CNN
 F 3 "" H 5790 3625 60  0000 C CNN
 	1    5790 3625
@@ -690,17 +543,6 @@ F 3 "" H 5780 3800 50  0001 C CNN
 	1    5780 3800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6985 3625 6090 3625
-Wire Wire Line
-	5880 3800 6090 3800
-Wire Wire Line
-	6090 3625 6090 3875
-Wire Wire Line
-	5680 3800 5490 3800
-Wire Wire Line
-	5490 3625 5490 3875
-Connection ~ 5490 3800
 $Comp
 L GND #PWR?
 U 1 1 5B082DC4
@@ -712,7 +554,6 @@ F 3 "" H 5490 3875 50  0001 C CNN
 	1    5490 3875
 	1    0    0    -1  
 $EndComp
-Connection ~ 6090 3800
 $Comp
 L R_Small R?
 U 1 1 5B08364C
@@ -724,24 +565,384 @@ F 3 "" H 6090 3975 50  0001 C CNN
 	1    6090 3975
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6090 4075 6090 4275
 Text Label 6090 4275 1    60   ~ 0
 +3V3
-Wire Wire Line
-	2030 1270 2350 1270
-Wire Wire Line
-	2030 1370 2350 1370
-Text Label 2350 1270 2    60   ~ 0
+Text Label 2370 4360 2    60   ~ 0
 USB_DM
-Text Label 2350 1370 2    60   ~ 0
+Text Label 2370 4460 2    60   ~ 0
 USB_DP
-Wire Wire Line
-	6500 2725 6985 2725
-Wire Wire Line
-	6500 2825 6985 2825
 Text Label 6500 2725 0    60   ~ 0
 USB_DM
 Text Label 6500 2825 0    60   ~ 0
 USB_DP
+$Comp
+L Crystal_Small X?
+U 1 1 5B0960C7
+P 6425 3375
+F 0 "X?" V 6355 3415 50  0000 L CNN
+F 1 "8MHz(16pF)" V 6570 3230 50  0000 L CNN
+F 2 "" H 6425 3375 50  0001 C CNN
+F 3 "" H 6425 3375 50  0001 C CNN
+	1    6425 3375
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B09626D
+P 6765 3325
+F 0 "R?" V 6700 3325 50  0000 C CNN
+F 1 "DNP" V 6765 3325 50  0000 C CNN
+F 2 "" H 6765 3325 50  0001 C CNN
+F 3 "" H 6765 3325 50  0001 C CNN
+	1    6765 3325
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B096320
+P 6765 3425
+F 0 "R?" V 6830 3425 50  0000 C CNN
+F 1 "DNP" V 6765 3425 50  0000 C CNN
+F 2 "" H 6765 3425 50  0001 C CNN
+F 3 "" H 6765 3425 50  0001 C CNN
+	1    6765 3425
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B096D6A
+P 6220 3275
+F 0 "C?" V 6180 3350 50  0000 C CNN
+F 1 "20pF" V 6315 3275 50  0000 C CNN
+F 2 "" H 6220 3275 50  0001 C CNN
+F 3 "" H 6220 3275 50  0001 C CNN
+	1    6220 3275
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B096F75
+P 6220 3475
+F 0 "C?" V 6180 3550 50  0000 C CNN
+F 1 "20pF" V 6315 3475 50  0000 C CNN
+F 2 "" H 6220 3475 50  0001 C CNN
+F 3 "" H 6220 3475 50  0001 C CNN
+	1    6220 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6320 3275 6600 3275
+Wire Wire Line
+	6600 3275 6600 3325
+Wire Wire Line
+	6600 3325 6665 3325
+Connection ~ 6425 3475
+Wire Wire Line
+	6600 3475 6320 3475
+Wire Wire Line
+	6600 3425 6600 3475
+Wire Wire Line
+	6665 3425 6600 3425
+Wire Wire Line
+	6985 3425 6865 3425
+Wire Wire Line
+	6985 3325 6865 3325
+Wire Wire Line
+	6500 2825 6985 2825
+Wire Wire Line
+	6500 2725 6985 2725
+Wire Wire Line
+	2050 4460 2370 4460
+Wire Wire Line
+	2050 4360 2370 4360
+Wire Wire Line
+	6090 4075 6090 4275
+Connection ~ 6090 3800
+Connection ~ 5490 3800
+Wire Wire Line
+	5490 3625 5490 3875
+Wire Wire Line
+	5680 3800 5490 3800
+Wire Wire Line
+	6090 3625 6090 3875
+Wire Wire Line
+	5880 3800 6090 3800
+Wire Wire Line
+	6985 3625 6090 3625
+Wire Wire Line
+	1465 4260 1895 4260
+Wire Wire Line
+	1545 4660 1545 4710
+Wire Wire Line
+	1465 4660 1545 4660
+Wire Wire Line
+	1465 4460 1850 4460
+Wire Wire Line
+	1465 4360 1850 4360
+Connection ~ 6370 3725
+Wire Wire Line
+	6370 3945 6370 4015
+Wire Wire Line
+	6370 3725 6370 3745
+Wire Wire Line
+	6200 3725 6985 3725
+Connection ~ 9540 4125
+Wire Wire Line
+	9435 4125 9540 4125
+Connection ~ 9540 4225
+Wire Wire Line
+	9435 4225 9540 4225
+Connection ~ 9540 4325
+Wire Wire Line
+	9435 4325 9540 4325
+Wire Wire Line
+	9540 4025 9540 4425
+Wire Wire Line
+	9435 4025 9540 4025
+Connection ~ 4760 6140
+Connection ~ 1015 6140
+Wire Wire Line
+	3450 6140 5010 6140
+Connection ~ 3925 6140
+Wire Wire Line
+	3925 6395 3925 6640
+Wire Wire Line
+	3925 6140 3925 6195
+Wire Wire Line
+	3715 6950 3715 7305
+Wire Wire Line
+	2950 7305 2950 7240
+Wire Wire Line
+	3525 6140 3525 6440
+Connection ~ 3715 6140
+Wire Wire Line
+	3715 6140 3715 6310
+Connection ~ 3715 6640
+Wire Wire Line
+	3715 6510 3715 6750
+Wire Wire Line
+	2160 7190 2160 7305
+Wire Wire Line
+	2030 7190 2160 7190
+Wire Wire Line
+	1530 7190 1310 7190
+Wire Wire Line
+	1780 6890 1780 7090
+Wire Wire Line
+	2050 6890 1780 6890
+Wire Wire Line
+	2050 6740 1830 6740
+Wire Wire Line
+	800  6140 2050 6140
+Connection ~ 1290 6140
+Connection ~ 1570 6140
+Wire Wire Line
+	1015 6395 1015 6475
+Wire Wire Line
+	1015 6140 1015 6195
+Wire Wire Line
+	1290 6395 1290 6475
+Wire Wire Line
+	1290 6140 1290 6195
+Wire Wire Line
+	1570 6395 1570 6475
+Wire Wire Line
+	1570 6140 1570 6195
+Wire Wire Line
+	3925 6640 3450 6640
+Connection ~ 4485 6140
+Connection ~ 4205 6140
+Wire Wire Line
+	4760 6395 4760 6475
+Wire Wire Line
+	4760 6140 4760 6195
+Wire Wire Line
+	4485 6395 4485 6475
+Wire Wire Line
+	4485 6140 4485 6195
+Connection ~ 3525 6340
+Wire Wire Line
+	3450 6340 3525 6340
+Connection ~ 3525 6240
+Wire Wire Line
+	3450 6240 3525 6240
+Connection ~ 3525 6140
+Wire Wire Line
+	3525 6440 3450 6440
+Wire Wire Line
+	4205 6395 4205 6475
+Wire Wire Line
+	4205 6140 4205 6195
+Connection ~ 2850 7305
+Wire Wire Line
+	2850 7240 2850 7305
+Connection ~ 2750 7305
+Wire Wire Line
+	2750 7240 2750 7305
+Connection ~ 2950 7305
+Wire Wire Line
+	2650 7305 2950 7305
+Wire Wire Line
+	2650 7240 2650 7305
+Connection ~ 2000 6440
+Wire Wire Line
+	2050 6440 2000 6440
+Connection ~ 2000 6340
+Wire Wire Line
+	2050 6340 2000 6340
+Connection ~ 2000 6240
+Wire Wire Line
+	2050 6240 2000 6240
+Connection ~ 2000 6140
+Wire Wire Line
+	2000 6590 2000 6140
+Wire Wire Line
+	2050 6590 2000 6590
+Connection ~ 3525 5840
+Wire Wire Line
+	3450 5840 3525 5840
+Wire Wire Line
+	3525 5470 2880 5470
+Wire Wire Line
+	3525 5940 3525 5470
+Wire Wire Line
+	3450 5940 3525 5940
+Connection ~ 2000 5840
+Wire Wire Line
+	2050 5840 2000 5840
+Wire Wire Line
+	2000 5470 2580 5470
+Wire Wire Line
+	2000 5940 2000 5470
+Wire Wire Line
+	2050 5940 2000 5940
+Connection ~ 6425 3275
+$Comp
+L GND #PWR?
+U 1 1 5B097780
+P 5960 3350
+F 0 "#PWR?" H 5960 3100 50  0001 C CNN
+F 1 "GND" H 5960 3215 50  0000 C CNN
+F 2 "" H 5960 3350 50  0001 C CNN
+F 3 "" H 5960 3350 50  0001 C CNN
+	1    5960 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5960 3350 5960 3320
+Wire Wire Line
+	5960 3320 6120 3320
+Wire Wire Line
+	6120 3275 6120 3475
+Connection ~ 6120 3320
+$Comp
+L R_Small R?
+U 1 1 5B097D61
+P 9850 3525
+F 0 "R?" V 9920 3525 50  0000 C CNN
+F 1 "DNP" V 9850 3525 50  0000 C CNN
+F 2 "" H 9850 3525 50  0001 C CNN
+F 3 "" H 9850 3525 50  0001 C CNN
+	1    9850 3525
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B0980CA
+P 9850 3425
+F 0 "R?" V 9785 3425 50  0000 C CNN
+F 1 "DNP" V 9850 3425 50  0000 C CNN
+F 2 "" H 9850 3425 50  0001 C CNN
+F 3 "" H 9850 3425 50  0001 C CNN
+	1    9850 3425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9435 3525 9750 3525
+Wire Wire Line
+	9750 3425 9435 3425
+$Comp
+L Crystal_Small X?
+U 1 1 5B098328
+P 10185 3470
+F 0 "X?" V 10120 3505 50  0000 L CNN
+F 1 "ABS25-32.768KHZ-6-T" V 10385 2705 50  0000 L CNN
+F 2 "" H 10185 3470 50  0001 C CNN
+F 3 "" H 10185 3470 50  0001 C CNN
+	1    10185 3470
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 3525 10005 3525
+Wire Wire Line
+	10005 3525 10005 3570
+Wire Wire Line
+	10005 3570 10380 3570
+Wire Wire Line
+	10005 3370 10380 3370
+Wire Wire Line
+	10005 3370 10005 3425
+Wire Wire Line
+	10005 3425 9950 3425
+$Comp
+L C_Small C?
+U 1 1 5B098883
+P 10480 3370
+F 0 "C?" V 10440 3440 50  0000 C CNN
+F 1 "4.3pF" V 10575 3370 50  0000 C CNN
+F 2 "" H 10480 3370 50  0001 C CNN
+F 3 "" H 10480 3370 50  0001 C CNN
+	1    10480 3370
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B098936
+P 10480 3570
+F 0 "C?" V 10440 3640 50  0000 C CNN
+F 1 "4.3pF" V 10585 3565 50  0000 C CNN
+F 2 "" H 10480 3570 50  0001 C CNN
+F 3 "" H 10480 3570 50  0001 C CNN
+	1    10480 3570
+	0    1    1    0   
+$EndComp
+Connection ~ 10185 3370
+Connection ~ 10185 3570
+$Comp
+L GND #PWR?
+U 1 1 5B098D9A
+P 10680 3465
+F 0 "#PWR?" H 10680 3215 50  0001 C CNN
+F 1 "GND" H 10685 3292 50  0000 C CNN
+F 2 "" H 10680 3465 50  0001 C CNN
+F 3 "" H 10680 3465 50  0001 C CNN
+	1    10680 3465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10680 3465 10680 3440
+Wire Wire Line
+	10680 3440 10580 3440
+Wire Wire Line
+	10580 3370 10580 3570
+Connection ~ 10580 3440
+$Comp
+L Micro_SD_Card CON?
+U 1 1 5B09949C
+P 1655 1600
+F 0 "CON?" H 1605 783 50  0000 C CNN
+F 1 "Micro_SD_Card" H 1605 874 50  0000 C CNN
+F 2 "" H 2805 1900 50  0001 C CNN
+F 3 "" H 1655 1600 50  0001 C CNN
+	1    1655 1600
+	-1   0    0    1   
+$EndComp
+Text Label 6500 2925 0    60   ~ 0
+SWDIO
+Wire Wire Line
+	6500 2925 6985 2925
+Text Label 6500 3025 0    60   ~ 0
+SWCLK
+Wire Wire Line
+	6500 3025 6985 3025
 $EndSCHEMATC
