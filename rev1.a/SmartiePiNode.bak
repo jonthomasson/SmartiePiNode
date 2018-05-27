@@ -174,6 +174,7 @@ LIBS:intersil-isl91127ir
 LIBS:st-stm32l052-lqfp48
 LIBS:usbmicrob
 LIBS:sw-push
+LIBS:micro-sd-card
 LIBS:SmartiePiNode-cache
 EELAYER 26 0
 EELAYER END
@@ -926,15 +927,101 @@ Wire Wire Line
 Wire Wire Line
 	10580 3370 10580 3570
 Connection ~ 10580 3440
+Text Label 6500 2925 0    60   ~ 0
+SWDIO
+Wire Wire Line
+	6500 2925 6985 2925
+Text Label 6500 3025 0    60   ~ 0
+SWCLK
+Wire Wire Line
+	6500 3025 6985 3025
+NoConn ~ 1615 1040
+NoConn ~ 1615 1740
 $Comp
-L Micro_SD_Card CON?
-U 1 1 5B09949C
-P 1655 1600
-F 0 "CON?" H 1605 783 50  0000 C CNN
-F 1 "Micro_SD_Card" H 1605 874 50  0000 C CNN
-F 2 "" H 2805 1900 50  0001 C CNN
-F 3 "" H 1655 1600 50  0001 C CNN
-	1    1655 1600
-	-1   0    0    1   
+L SD_CARD_SLOT_MICRO SD?
+U 1 1 5B0A3FA0
+P 815 915
+F 0 "SD?" H 870 -200 45  0000 C CNN
+F 1 "SD_CARD_SLOT_MICRO" H 1125 960 45  0000 C CNN
+F 2 "MF_Connectors_MF-MICROSD" H 845 1065 20  0001 C CNN
+F 3 "" H 815 915 60  0000 C CNN
+	1    815  915 
+	1    0    0    -1  
 $EndComp
+Text Label 9920 3125 2    60   ~ 0
+SPI2_MOSI
+Wire Wire Line
+	9920 3125 9435 3125
+Text Label 9920 3025 2    60   ~ 0
+SPI2_MISO
+Wire Wire Line
+	9920 3025 9435 3025
+Text Label 9920 2925 2    60   ~ 0
+SPI2_SCK
+Wire Wire Line
+	9920 2925 9435 2925
+Text Label 2100 1440 2    60   ~ 0
+SPI2_SCK
+Wire Wire Line
+	2100 1440 1615 1440
+Text Label 2100 1240 2    60   ~ 0
+SPI2_MOSI
+Wire Wire Line
+	2100 1240 1615 1240
+Text Label 2100 1640 2    60   ~ 0
+SPI2_MISO
+Wire Wire Line
+	2100 1640 1615 1640
+$Comp
+L CONN_02X10 P?
+U 1 1 5B0A56D5
+P 8200 5695
+F 0 "P?" H 8140 5145 50  0000 C CNN
+F 1 "SX1238_TX_HEADER" H 8200 6269 50  0000 C CNN
+F 2 "" H 8200 4495 50  0001 C CNN
+F 3 "" H 8200 4495 50  0001 C CNN
+	1    8200 5695
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1615 1540 2225 1540
+Wire Wire Line
+	2225 1540 2225 1670
+$Comp
+L GND #PWR?
+U 1 1 5B0A5E1E
+P 2225 1670
+F 0 "#PWR?" H 2225 1420 50  0001 C CNN
+F 1 "GND" H 2230 1497 50  0000 C CNN
+F 2 "" H 2225 1670 50  0001 C CNN
+F 3 "" H 2225 1670 50  0001 C CNN
+	1    2225 1670
+	1    0    0    -1  
+$EndComp
+Text Label 2525 1140 2    60   ~ 0
+SPI2_NSS_SDCARD
+Wire Wire Line
+	1615 1140 2525 1140
+Wire Wire Line
+	1680 1140 1680 940 
+Connection ~ 1680 1140
+$Comp
+L R_Small R?
+U 1 1 5B0A6A02
+P 1680 840
+F 0 "R?" H 1710 850 50  0000 L CNN
+F 1 "DNP" V 1685 760 50  0000 L CNN
+F 2 "" H 1680 840 50  0001 C CNN
+F 3 "" H 1680 840 50  0001 C CNN
+	1    1680 840 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1680 740  1680 675 
+Wire Wire Line
+	1680 675  1895 675 
+Text Label 1895 675  2    60   ~ 0
++3V3
+Text Notes 1745 770  0    39   ~ 0
+Populate with 100K pullup if needed.
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=5/25/2018 6:27:17 AM
+update=5/26/2018 8:33:55 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -204,3 +204,4 @@ LibName172=libs/intersil-isl91127ir
 LibName173=libs/st-stm32l052-lqfp48
 LibName174=libs/usbmicrob
 LibName175=libs/sw-push
+LibName176=libs/micro-sd-card
