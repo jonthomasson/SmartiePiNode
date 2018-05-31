@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name amphenol-microsd-114-00841-68)(type KiCad)(uri "$(KIPRJMOD)/libs/amphenol-microsd-114-00841-68.pretty")(options "")(descr ""))
+  (lib (name amphenol-microusb-10118194)(type KiCad)(uri "$(KIPRJMOD)/libs/amphenol-microusb-10118194.pretty")(options "")(descr ""))
+)
