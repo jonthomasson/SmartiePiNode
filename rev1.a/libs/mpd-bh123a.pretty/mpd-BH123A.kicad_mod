@@ -1,4 +1,4 @@
-(module mpd-BH123A (layer F.Cu) (tedit 5B119583)
+(module mpd-BH123A (layer F.Cu) (tedit 5B11A47C)
   (fp_text reference REF** (at 0.04 22.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -28,9 +28,9 @@
   (fp_text user "or protected Li-Ion equivalent." (at 1.01 0.13 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole circle (at 0.02 18.98) (size 2.524 2.524) (drill 1.47) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0.02 18.98) (size 2.524 2.524) (drill 1.47) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0.03 -18.98) (size 2.524 2.524) (drill 1.47) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 6.4 -19.575) (size 2.224 2.224) (drill 1.27) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 6.4 -19.575) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/3dmodels/mpd-bh123a-nobat.step
     (at (xyz -1.299212598425197 -0.7598425196850395 -0.6220472440944883))
     (scale (xyz 1 1 1))

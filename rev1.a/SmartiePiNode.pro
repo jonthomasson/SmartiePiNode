@@ -1,4 +1,4 @@
-update=5/26/2018 8:33:55 PM
+update=6/2/2018 6:53:10 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -205,3 +205,4 @@ LibName173=libs/st-stm32l052-lqfp48
 LibName174=libs/usbmicrob
 LibName175=libs/sw-push
 LibName176=libs/micro-sd-card
+LibName177=libs/crystal_small
