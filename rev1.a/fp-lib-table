@@ -5,4 +5,6 @@
   (lib (name abracon-abs25)(type KiCad)(uri "$(KIPRJMOD)/libs/abracon-abs25.pretty")(options "")(descr ""))
   (lib (name murata-1277AS-H-1R0M)(type KiCad)(uri "$(KIPRJMOD)/libs/murata-1277AS-H-1R0M.pretty")(options "")(descr ""))
   (lib (name te-1825966-1)(type KiCad)(uri "$(KIPRJMOD)/libs/te-1825966-1.pretty")(options "")(descr ""))
+  (lib (name abracon-abs07)(type KiCad)(uri "$(KIPRJMOD)/libs/abracon-abs07.pretty")(options "")(descr ""))
+  (lib (name abracon-abm10)(type KiCad)(uri "$(KIPRJMOD)/libs/abracon-abm10.pretty")(options "")(descr ""))
 )
