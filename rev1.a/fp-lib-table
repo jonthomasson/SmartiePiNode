@@ -11,4 +11,5 @@
   (lib (name st-stm32l052-lqfp48)(type KiCad)(uri "$(KIPRJMOD)/libs/st-stm32l052-lqfp48.pretty")(options "")(descr ""))
   (lib (name bourns-MH1608-601Y)(type KiCad)(uri "$(KIPRJMOD)/libs/bourns-MH1608-601Y.pretty")(options "")(descr ""))
   (lib (name intersil-isl91127ir)(type KiCad)(uri "$(KIPRJMOD)/libs/intersil-isl91127ir.pretty")(options "")(descr ""))
+  (lib (name onsemi-NRVB120VLSFT1G)(type KiCad)(uri "$(KIPRJMOD)/libs/onsemi-NRVB120VLSFT1G.pretty")(options "")(descr ""))
 )
