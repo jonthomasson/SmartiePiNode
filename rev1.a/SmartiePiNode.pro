@@ -1,4 +1,4 @@
-update=6/2/2018 6:53:10 AM
+update=6/8/2018 5:20:16 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -206,3 +206,4 @@ LibName174=libs/usbmicrob
 LibName175=libs/sw-push
 LibName176=libs/micro-sd-card
 LibName177=libs/crystal_small
+LibName178=libs/abracon-abm10

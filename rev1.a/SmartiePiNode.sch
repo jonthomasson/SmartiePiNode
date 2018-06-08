@@ -176,6 +176,7 @@ LIBS:usbmicrob
 LIBS:sw-push
 LIBS:micro-sd-card
 LIBS:crystal_small
+LIBS:abracon-abm10
 LIBS:SmartiePiNode-cache
 EELAYER 26 0
 EELAYER END
@@ -567,17 +568,6 @@ USB_DM
 Text Label 6890 2190 0    60   ~ 0
 USB_DP
 $Comp
-L Crystal_Small X1
-U 1 1 5B0960C7
-P 6815 2740
-F 0 "X1" V 6745 2780 50  0000 L CNN
-F 1 "8MHz(16pF)" V 6960 2595 50  0000 L CNN
-F 2 "abracon-abm10:abracon-abm10" H 6815 2740 50  0001 C CNN
-F 3 "" H 6815 2740 50  0001 C CNN
-	1    6815 2740
-	0    1    1    0   
-$EndComp
-$Comp
 L R_Small R11
 U 1 1 5B09626D
 P 7155 2690
@@ -600,40 +590,20 @@ F 3 "" H 7155 2790 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C10
-U 1 1 5B096D6A
-P 6610 2640
-F 0 "C10" V 6570 2715 50  0000 C CNN
-F 1 "20pF" V 6705 2640 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 6610 2640 50  0001 C CNN
-F 3 "" H 6610 2640 50  0001 C CNN
-	1    6610 2640
-	0    1    1    0   
-$EndComp
-$Comp
 L C_Small C11
 U 1 1 5B096F75
-P 6610 2840
-F 0 "C11" V 6570 2915 50  0000 C CNN
-F 1 "20pF" V 6705 2840 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 6610 2840 50  0001 C CNN
-F 3 "" H 6610 2840 50  0001 C CNN
-	1    6610 2840
-	0    1    1    0   
+P 5955 2615
+F 0 "C11" V 5915 2690 50  0000 C CNN
+F 1 "8pF" V 5990 2525 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 5955 2615 50  0001 C CNN
+F 3 "" H 5955 2615 50  0001 C CNN
+	1    5955 2615
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6710 2640 6990 2640
+	6720 2690 7055 2690
 Wire Wire Line
-	6990 2640 6990 2690
-Wire Wire Line
-	6990 2690 7055 2690
-Connection ~ 6815 2840
-Wire Wire Line
-	6990 2840 6710 2840
-Wire Wire Line
-	6990 2790 6990 2840
-Wire Wire Line
-	7055 2790 6990 2790
+	6680 2790 7055 2790
 Wire Wire Line
 	7375 2790 7255 2790
 Wire Wire Line
@@ -797,25 +767,6 @@ Wire Wire Line
 	2770 5950 2770 5480
 Wire Wire Line
 	2820 5950 2770 5950
-Connection ~ 6815 2640
-$Comp
-L GND #PWR014
-U 1 1 5B097780
-P 6350 2715
-F 0 "#PWR014" H 6350 2465 50  0001 C CNN
-F 1 "GND" H 6350 2580 50  0000 C CNN
-F 2 "" H 6350 2715 50  0001 C CNN
-F 3 "" H 6350 2715 50  0001 C CNN
-	1    6350 2715
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 2715 6350 2685
-Wire Wire Line
-	6350 2685 6510 2685
-Wire Wire Line
-	6510 2640 6510 2840
-Connection ~ 6510 2685
 $Comp
 L R_Small R14
 U 1 1 5B097D61
@@ -1468,5 +1419,69 @@ F 2 "abracon-abs07:abracon-abs07" H 10575 2835 50  0001 C CNN
 F 3 "" H 10575 2835 50  0001 C CNN
 	1    10575 2835
 	0    1    1    0   
+$EndComp
+$Comp
+L abracon-abm10 X?
+U 1 1 5B1A86B5
+P 6260 2395
+F 0 "X?" H 6410 2325 60  0000 C CNN
+F 1 "abm10" H 6265 2565 60  0000 C CNN
+F 2 "" H 6260 2395 60  0001 C CNN
+F 3 "" H 6260 2395 60  0001 C CNN
+	1    6260 2395
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C10
+U 1 1 5B096D6A
+P 6565 2620
+F 0 "C10" V 6525 2695 50  0000 C CNN
+F 1 "8pF" V 6600 2525 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 6565 2620 50  0001 C CNN
+F 3 "" H 6565 2620 50  0001 C CNN
+	1    6565 2620
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6720 2170 6720 2690
+Wire Wire Line
+	5955 2170 6720 2170
+Wire Wire Line
+	5955 2345 6010 2345
+Wire Wire Line
+	6460 2345 6680 2345
+Wire Wire Line
+	6680 2345 6680 2790
+Wire Wire Line
+	6565 2520 6565 2345
+Connection ~ 6565 2345
+Wire Wire Line
+	5955 2170 5955 2515
+Connection ~ 5955 2345
+Wire Wire Line
+	5955 2715 5955 2750
+Wire Wire Line
+	5955 2750 6565 2750
+Wire Wire Line
+	6565 2750 6565 2720
+Wire Wire Line
+	6160 2595 6160 2750
+Connection ~ 6160 2750
+Wire Wire Line
+	6310 2595 6310 2750
+Connection ~ 6310 2750
+Wire Wire Line
+	6235 2750 6235 2785
+Connection ~ 6235 2750
+$Comp
+L GND #PWR?
+U 1 1 5B1AE42D
+P 6235 2785
+F 0 "#PWR?" H 6235 2535 50  0001 C CNN
+F 1 "GND" H 6315 2770 50  0000 C CNN
+F 2 "" H 6235 2785 50  0001 C CNN
+F 3 "" H 6235 2785 50  0001 C CNN
+	1    6235 2785
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
