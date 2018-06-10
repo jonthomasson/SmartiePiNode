@@ -1,4 +1,4 @@
-update=6/8/2018 5:20:16 AM
+update=6/10/2018 7:32:55 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -207,3 +207,4 @@ LibName175=libs/sw-push
 LibName176=libs/micro-sd-card
 LibName177=libs/crystal_small
 LibName178=libs/abracon-abm10
+LibName179=libs/m3-mounting-hole

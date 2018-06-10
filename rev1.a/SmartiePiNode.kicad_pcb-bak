@@ -1866,7 +1866,7 @@
   )
 
   (module m3-mounting-holes:m3-mounting-hole (layer F.Cu) (tedit 5B1D4DC6) (tstamp 5B1D524C)
-    (at 112.9 165.6348)
+    (at 135.039939 33.942518)
     (path /5B1D3AA5)
     (fp_text reference H1 (at 0.02 4.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1924,7 +1924,7 @@
   )
 
   (module m3-mounting-holes:m3-mounting-hole (layer F.Cu) (tedit 5B1D4DC6) (tstamp 5B1D5266)
-    (at 170.9136 165.6348)
+    (at 150.439939 33.942518)
     (path /5B1D4190)
     (fp_text reference H3 (at 0.02 4.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
