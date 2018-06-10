@@ -3,9 +3,9 @@
   (general
     (links 156)
     (no_connects 124)
-    (area 0 0 0 0)
+    (area 45.982916 25.735917 179.440001 172.670001)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 12)
     (tracks 0)
     (zones 0)
     (modules 52)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_ffffffff)
       (usegerberextensions false)
@@ -1900,7 +1900,7 @@
     (fp_text reference H2 (at 0.02 4.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value m3-mounting-hole (at -0.02 -4.19) (layer F.Fab) hide
+    (fp_text value m3-mounting-hole (at 2.12 -3.85) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 5.969 5.969) (drill 3.429) (layers *.Cu *.Mask)
@@ -1952,13 +1952,13 @@
       (net 1 GND))
   )
 
-  (module m3-mounting-holes:m3-mounting-hole (layer F.Cu) (tedit 5B1D4DC6) (tstamp 5B1D5273)
+  (module m3-mounting-holes:m3-mounting-hole (layer F.Cu) (tedit 5B1D9D40) (tstamp 5B1D5273)
     (at 170.927189 122.15)
     (path /5B1D42C3)
     (fp_text reference H4 (at 0.02 4.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value m3-mounting-hole (at -0.02 -4.19) (layer F.Fab) hide
+    (fp_text value m3-mounting-hole (at -2.627189 -4.29) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 5.969 5.969) (drill 3.429) (layers *.Cu *.Mask)
@@ -1980,5 +1980,18 @@
     (pad 1 thru_hole circle (at 0 -2.35) (size 0.635 0.635) (drill 0.3302) (layers *.Cu *.Mask)
       (net 1 GND))
   )
+
+  (gr_line (start 106.06 117.99) (end 106.06 117.99) (layer Edge.Cuts) (width 0.15) (tstamp 5B1D9E31))
+  (gr_line (start 106.06 169.8) (end 106.06 117.99) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 107.65 171.38) (end 107.65 171.38) (layer Edge.Cuts) (width 0.15) (tstamp 5B1D9E13))
+  (gr_line (start 176.17 171.38) (end 107.65 171.38) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 177.75 169.8) (end 177.75 169.8) (layer Edge.Cuts) (width 0.15) (tstamp 5B1D9DDA))
+  (gr_line (start 177.75 117.98) (end 177.75 169.8) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 176.16 116.4) (end 176.16 116.4) (layer Edge.Cuts) (width 0.15) (tstamp 5B1D9DD2))
+  (gr_line (start 107.64 116.4) (end 176.16 116.4) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 176.17 169.8) (end 177.75 169.8) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5B1D9B67))
+  (gr_arc (start 176.17 117.98) (end 176.17 116.4) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5B1D9B63))
+  (gr_arc (start 107.64 117.98) (end 106.06 117.98) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5B1D9B5F))
+  (gr_arc (start 107.64 169.8) (end 107.64 171.38) (angle 90) (layer Edge.Cuts) (width 0.15))
 
 )
