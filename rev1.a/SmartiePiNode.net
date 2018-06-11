@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Stache\\Documents\\KiCad Projects\\SmartiePiNode\\rev1.a\\SmartiePiNode.sch")
-    (date "6/10/2018 9:16:02 AM")
+    (date "6/11/2018 4:34:45 PM")
     (tool "Eeschema (2017-01-24 revision 0b6147e)-makepkg")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -179,7 +179,7 @@
       (tstamp 5B0A3FA0))
     (comp (ref CN3)
       (value SX1238_TRX_HEADER)
-      (footprint Socket_Strips:Socket_Strip_Straight_2x10)
+      (footprint socket-strip-straight-2x10:sx1238_trx)
       (libsource (lib conn) (part CONN_02X10))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B0A56D5))
