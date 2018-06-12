@@ -801,8 +801,6 @@ Wire Wire Line
 Wire Wire Line
 	10395 2935 10770 2935
 Wire Wire Line
-	10395 2735 10770 2735
-Wire Wire Line
 	10395 2735 10395 2790
 Wire Wire Line
 	10395 2790 10340 2790
@@ -828,7 +826,6 @@ F 3 "" H 10870 2935 50  0001 C CNN
 	1    10870 2935
 	0    1    1    0   
 $EndComp
-Connection ~ 10575 2735
 Connection ~ 10575 2935
 $Comp
 L GND #PWR014
@@ -1411,17 +1408,6 @@ MODE:\nWHEN HIGH = AUTO PFM\nWHEN LOW = FORCED PWM
 Text Notes 5500 5950 0    39   ~ 0
 second stage output filter goes here.
 $Comp
-L abracon-abs25 X2
-U 1 1 5B12A6FF
-P 10575 2835
-F 0 "X2" V 10510 2880 50  0000 L CNN
-F 1 "ABS25-32.768KHZ-6-T" V 10765 2080 50  0000 L CNN
-F 2 "abracon-abs07:abracon-abs07" H 10575 2835 50  0001 C CNN
-F 3 "" H 10575 2835 50  0001 C CNN
-	1    10575 2835
-	0    1    1    0   
-$EndComp
-$Comp
 L abracon-abm10 X1
 U 1 1 5B1A86B5
 P 6260 2395
@@ -1553,4 +1539,18 @@ Connection ~ 4855 4915
 Wire Wire Line
 	5025 5090 4855 5090
 Connection ~ 4855 5090
+$Comp
+L abracon-abs25 X2
+U 1 1 5B12A6FF
+P 10575 2835
+F 0 "X2" V 10510 2880 50  0000 L CNN
+F 1 "ABS25-32.768KHZ-6-T" V 10765 2080 50  0000 L CNN
+F 2 "abracon-abs07:abracon-abs07" H 10575 2835 50  0001 C CNN
+F 3 "" H 10575 2835 50  0001 C CNN
+	1    10575 2835
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10395 2735 10770 2735
+Connection ~ 10575 2735
 $EndSCHEMATC

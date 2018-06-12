@@ -5,4 +5,9 @@ D Two pin crystal, small symbol
 K quartz ceramic resonator oscillator
 $ENDCMP
 #
+$CMP abracon-abs25
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
 #End Doc Library
