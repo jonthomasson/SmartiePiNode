@@ -1,4 +1,4 @@
-update=6/10/2018 7:32:55 AM
+update=6/12/2018 5:15:36 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -208,3 +208,13 @@ LibName176=libs/micro-sd-card
 LibName177=libs/crystal_small
 LibName178=libs/abracon-abm10
 LibName179=libs/m3-mounting-hole
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
