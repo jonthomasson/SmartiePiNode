@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Stache\\Documents\\KiCad Projects\\SmartiePiNode\\rev1.a\\SmartiePiNode.sch")
-    (date "6/13/2018 4:44:08 PM")
+    (date "6/14/2018 7:07:23 AM")
     (tool "Eeschema (2017-01-24 revision 0b6147e)-makepkg")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
