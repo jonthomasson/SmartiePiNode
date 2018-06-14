@@ -419,7 +419,7 @@ Text Label 2505 7380 1    60   ~ 0
 +VIN
 Text Label 5780 6150 2    60   ~ 0
 +3V3
-Text Label 2600 6750 0    60   ~ 0
+Text Label 2315 6750 0    60   ~ 0
 +VIN
 $Comp
 L STM32L052_LQFP48 U2
@@ -685,7 +685,7 @@ Wire Wire Line
 Wire Wire Line
 	2505 6900 2820 6900
 Wire Wire Line
-	2820 6750 2600 6750
+	2535 6750 2315 6750
 Connection ~ 2060 6150
 Connection ~ 2340 6150
 Wire Wire Line
@@ -801,8 +801,6 @@ Wire Wire Line
 Wire Wire Line
 	10395 2935 10770 2935
 Wire Wire Line
-	10395 2735 10770 2735
-Wire Wire Line
 	10395 2735 10395 2790
 Wire Wire Line
 	10395 2790 10340 2790
@@ -828,7 +826,6 @@ F 3 "" H 10870 2935 50  0001 C CNN
 	1    10870 2935
 	0    1    1    0   
 $EndComp
-Connection ~ 10575 2735
 Connection ~ 10575 2935
 $Comp
 L GND #PWR014
@@ -1380,7 +1377,7 @@ L R_Small R4
 U 1 1 5B0CE5C9
 P 2505 7090
 F 0 "R4" H 2545 7125 50  0000 L CNN
-F 1 "0" V 2505 7065 50  0000 L CNN
+F 1 "10K" V 2505 7015 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 2505 7090 50  0001 C CNN
 F 3 "" H 2505 7090 50  0001 C CNN
 	1    2505 7090
@@ -1410,17 +1407,6 @@ Text Notes 1590 7070 0    39   ~ 0
 MODE:\nWHEN HIGH = AUTO PFM\nWHEN LOW = FORCED PWM
 Text Notes 5500 5950 0    39   ~ 0
 second stage output filter goes here.
-$Comp
-L abracon-abs25 X2
-U 1 1 5B12A6FF
-P 10575 2835
-F 0 "X2" V 10510 2880 50  0000 L CNN
-F 1 "ABS25-32.768KHZ-6-T" V 10765 2080 50  0000 L CNN
-F 2 "abracon-abs07:abracon-abs07" H 10575 2835 50  0001 C CNN
-F 3 "" H 10575 2835 50  0001 C CNN
-	1    10575 2835
-	0    1    1    0   
-$EndComp
 $Comp
 L abracon-abm10 X1
 U 1 1 5B1A86B5
@@ -1553,4 +1539,31 @@ Connection ~ 4855 4915
 Wire Wire Line
 	5025 5090 4855 5090
 Connection ~ 4855 5090
+$Comp
+L abracon-abs25 X2
+U 1 1 5B12A6FF
+P 10575 2835
+F 0 "X2" V 10510 2880 50  0000 L CNN
+F 1 "ABS25-32.768KHZ-6-T" V 10765 2080 50  0000 L CNN
+F 2 "abracon-abs07:abracon-abs07" H 10575 2835 50  0001 C CNN
+F 3 "" H 10575 2835 50  0001 C CNN
+	1    10575 2835
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10395 2735 10770 2735
+Connection ~ 10575 2735
+$Comp
+L R_Small R?
+U 1 1 5B21B026
+P 2635 6750
+F 0 "R?" V 2570 6750 50  0000 C CNN
+F 1 "10K" V 2635 6750 50  0000 C CNN
+F 2 "" H 2635 6750 50  0001 C CNN
+F 3 "" H 2635 6750 50  0001 C CNN
+	1    2635 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2735 6750 2820 6750
 $EndSCHEMATC
