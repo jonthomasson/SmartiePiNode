@@ -1551,7 +1551,7 @@
   (module st-stm32l052-lqfp48:STM32L052C8T6 (layer F.Cu) (tedit 5B1FCA8B) (tstamp 5B1BF3D1)
     (at 148.65 117.16)
     (path /5B063B4D)
-    (fp_text reference U2 (at 0 5.95) (layer F.SilkS)
+    (fp_text reference U2 (at -0.01 -5.32) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
     (fp_text value STM32L052_LQFP48 (at 0 -5.77) (layer F.SilkS) hide

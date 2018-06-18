@@ -1130,11 +1130,9 @@ Wire Wire Line
 	1010 5920 1195 5920
 Wire Wire Line
 	810  5920 485  5920
-Wire Wire Line
-	6890 1090 7375 1090
-Text Label 6890 1090 0    60   ~ 0
+Text Label 4970 660  0    60   ~ 0
 +VBAT
-Text Notes 6240 1085 0    39   ~ 0
+Text Notes 5520 575  0    39   ~ 0
 battery voltage sense
 $Comp
 L CONN_01X05 CN2
@@ -1400,8 +1398,6 @@ Wire Wire Line
 	2505 7190 2505 7380
 Text Notes 1590 7070 0    39   ~ 0
 MODE:\nWHEN HIGH = AUTO PFM\nWHEN LOW = FORCED PWM
-Text Notes 5500 5950 0    39   ~ 0
-second stage output filter goes here.
 $Comp
 L abracon-abm10 X1
 U 1 1 5B1A86B5
@@ -1648,4 +1644,112 @@ Wire Wire Line
 	2050 4660 2370 4660
 Text Label 2370 4660 2    60   ~ 0
 +3V3
+$Comp
+L R_Small R?
+U 1 1 5B27C6F8
+P 5270 810
+F 0 "R?" H 5310 855 50  0000 L CNN
+F 1 "DNP" V 5270 730 50  0000 L CNN
+F 2 "" H 5270 810 50  0001 C CNN
+F 3 "" H 5270 810 50  0001 C CNN
+	1    5270 810 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B27CCB4
+P 5270 1300
+F 0 "R?" H 5310 1345 50  0000 L CNN
+F 1 "DNP" V 5270 1220 50  0000 L CNN
+F 2 "" H 5270 1300 50  0001 C CNN
+F 3 "" H 5270 1300 50  0001 C CNN
+	1    5270 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B27CF4F
+P 5520 1055
+F 0 "R?" H 5560 1100 50  0000 L CNN
+F 1 "DNP" V 5520 975 50  0000 L CNN
+F 2 "" H 5520 1055 50  0001 C CNN
+F 3 "" H 5520 1055 50  0001 C CNN
+	1    5520 1055
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B27D27D
+P 5740 1245
+F 0 "C?" H 5832 1291 50  0000 L CNN
+F 1 "DNP" H 5832 1200 50  0000 L CNN
+F 2 "" H 5740 1245 50  0001 C CNN
+F 3 "" H 5740 1245 50  0001 C CNN
+	1    5740 1245
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B27D74A
+P 5435 1300
+F 0 "R?" H 5475 1345 50  0000 L CNN
+F 1 "DNP" V 5435 1220 50  0000 L CNN
+F 2 "" H 5435 1300 50  0001 C CNN
+F 3 "" H 5435 1300 50  0001 C CNN
+	1    5435 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5270 1400 5270 1525
+$Comp
+L GND #PWR?
+U 1 1 5B27DE3A
+P 5270 1525
+F 0 "#PWR?" H 5270 1275 50  0001 C CNN
+F 1 "GND" H 5275 1352 50  0000 C CNN
+F 2 "" H 5270 1525 50  0001 C CNN
+F 3 "" H 5270 1525 50  0001 C CNN
+	1    5270 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4970 660  5270 660 
+Wire Wire Line
+	5270 660  5270 710 
+Wire Wire Line
+	5270 910  5270 1200
+Wire Wire Line
+	5420 1055 5270 1055
+Connection ~ 5270 1055
+Wire Wire Line
+	5435 1200 5435 1145
+Wire Wire Line
+	5435 1145 5270 1145
+Connection ~ 5270 1145
+Wire Wire Line
+	5620 1055 6120 1055
+Wire Wire Line
+	5740 1145 5740 1055
+Connection ~ 5740 1055
+Wire Wire Line
+	5740 1345 5740 1395
+$Comp
+L GND #PWR?
+U 1 1 5B2802E4
+P 5740 1395
+F 0 "#PWR?" H 5740 1145 50  0001 C CNN
+F 1 "GND" H 5745 1222 50  0000 C CNN
+F 2 "" H 5740 1395 50  0001 C CNN
+F 3 "" H 5740 1395 50  0001 C CNN
+	1    5740 1395
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5435 1400 5435 1705
+Text Label 6120 1055 2    60   ~ 0
+VMEASURE
+Text Label 5845 1705 2    60   ~ 0
+VSENSE
+Wire Wire Line
+	5435 1705 5845 1705
 $EndSCHEMATC
