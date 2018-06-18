@@ -1,4 +1,4 @@
-(module intersil-isl91127ir (layer F.Cu) (tedit 5B18ADAB)
+(module intersil-isl91127ir (layer F.Cu) (tedit 5B25567A)
   (fp_text reference REF** (at 3.76 10.41) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -18,6 +18,7 @@
   (fp_line (start -1.2 1.9) (end -1.9 1.9) (layer F.SilkS) (width 0.15))
   (fp_line (start -1.9 1.9) (end -1.9 1.2) (layer F.SilkS) (width 0.15))
   (fp_line (start -1.9 1.2) (end -1.9 1.2) (layer F.SilkS) (width 0.15))
+  (pad 21 thru_hole circle (at -0.85 -0.95) (size 0.5 0.5) (drill 0.25) (layers *.Cu *.Mask))
   (pad 1 smd rect (at -1.9 -1) (size 0.6 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.9 -0.5) (size 0.6 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -1.9 0) (size 0.6 0.25) (layers F.Cu F.Paste F.Mask))
