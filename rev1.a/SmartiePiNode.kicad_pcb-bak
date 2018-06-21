@@ -576,7 +576,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5B292F6E) (tstamp 5B1BF261)
-    (at 143.3 123.1)
+    (at 143.3 121.8)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B0C297F)
@@ -605,7 +605,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5B293359) (tstamp 5B1BF267)
-    (at 143.3 124.7)
+    (at 143.3 123.4)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B0C3184)
@@ -1925,7 +1925,7 @@
   )
 
   (module bourns-MH1608-601Y:MH1608-601Y (layer F.Cu) (tedit 5B292F63) (tstamp 5B227AA9)
-    (at 143.3 121.7)
+    (at 143.3 124.8)
     (path /5B0C2DB9)
     (fp_text reference L2 (at -1.8 0) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.1)))

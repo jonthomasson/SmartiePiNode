@@ -1760,4 +1760,52 @@ Wire Wire Line
 	6890 1090 7375 1090
 Text Label 6890 1090 0    60   ~ 0
 VSENSE
+Text Label 6785 2490 0    60   ~ 0
+USB_RENUMn
+Wire Wire Line
+	7375 2490 6785 2490
+Text Label 6785 1790 0    60   ~ 0
+SPI2_NSS_TRX
+Wire Wire Line
+	7375 1790 6785 1790
+Text Label 10310 2190 2    60   ~ 0
+TRX_DIO5
+Wire Wire Line
+	10310 2190 9825 2190
+Text Label 7320 1985 2    60   ~ 0
+TRX_DIO4
+Wire Wire Line
+	10310 2090 9825 2090
+Text Label 7310 1885 2    60   ~ 0
+TRX_DIO3
+Wire Wire Line
+	10310 1990 9825 1990
+Text Label 10310 2090 2    60   ~ 0
+TRX_DIO2
+Wire Wire Line
+	10310 1190 9825 1190
+Text Label 10310 1990 2    60   ~ 0
+TRX_DIO1
+Wire Wire Line
+	10310 1090 9825 1090
+Text Label 10310 1190 2    60   ~ 0
+TRX_DIO0
+Wire Wire Line
+	10310 990  9825 990 
+Wire Wire Line
+	6890 1690 7375 1690
+Text Label 10310 1090 2    60   ~ 0
+TRX_RESET
+Wire Wire Line
+	6890 1590 7375 1590
+Text Label 10310 990  2    60   ~ 0
+TRX_RXTX
+Wire Wire Line
+	6890 1490 7375 1490
+Text Label 6890 1690 0    60   ~ 0
+TRX_RXEN
+Text Label 6890 1590 0    60   ~ 0
+TRX_TXEN
+Text Label 6890 1490 0    60   ~ 0
+TRX_MODE
 $EndSCHEMATC
