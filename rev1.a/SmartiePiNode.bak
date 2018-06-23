@@ -1794,14 +1794,18 @@ Wire Wire Line
 	10310 990  9825 990 
 Wire Wire Line
 	6890 1690 7375 1690
-Text Label 6890 1690 0    60   ~ 0
+Text Label 10310 1090 2    60   ~ 0
 TRX_RESET
 Wire Wire Line
 	6890 1590 7375 1590
-Text Label 6890 1590 0    60   ~ 0
+Text Label 10310 990  2    60   ~ 0
 TRX_RXTX
 Wire Wire Line
 	6890 1490 7375 1490
-Text Label 6890 1490 0    60   ~ 0
+Text Label 6890 1690 0    60   ~ 0
 TRX_RXEN
+Text Label 6890 1590 0    60   ~ 0
+TRX_TXEN
+Text Label 6890 1490 0    60   ~ 0
+TRX_MODE
 $EndSCHEMATC

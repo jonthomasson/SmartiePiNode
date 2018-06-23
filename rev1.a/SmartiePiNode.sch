@@ -1772,11 +1772,11 @@ Text Label 10310 2190 2    60   ~ 0
 TRX_DIO5
 Wire Wire Line
 	10310 2190 9825 2190
-Text Label 7320 1985 2    60   ~ 0
+Text Label 6890 1890 0    60   ~ 0
 TRX_DIO4
 Wire Wire Line
 	10310 2090 9825 2090
-Text Label 7310 1885 2    60   ~ 0
+Text Label 6890 1990 0    60   ~ 0
 TRX_DIO3
 Wire Wire Line
 	10310 1990 9825 1990
@@ -1808,4 +1808,8 @@ Text Label 6890 1590 0    60   ~ 0
 TRX_TXEN
 Text Label 6890 1490 0    60   ~ 0
 TRX_MODE
+Wire Wire Line
+	6890 1990 7375 1990
+Wire Wire Line
+	6890 1890 7375 1890
 $EndSCHEMATC
