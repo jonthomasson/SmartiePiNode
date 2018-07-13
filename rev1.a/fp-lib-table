@@ -17,4 +17,6 @@
   (lib (name SWITCH_SPDT_OS102011MA1QN1)(type KiCad)(uri "$(KIPRJMOD)/libs/SWITCH_SPDT_OS102011MA1QN1.pretty")(options "")(descr ""))
   (lib (name cl-sb-12c-12)(type KiCad)(uri "$(KIPRJMOD)/libs/cl-sb-12c-12.pretty")(options "")(descr ""))
   (lib (name copal-cl-sb-12a)(type KiCad)(uri "$(KIPRJMOD)/libs/copal-cl-sb-12a.pretty")(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri "$(KIPRJMOD)/libs/logo.pretty")(options "")(descr ""))
+  (lib (name smartiepitext)(type KiCad)(uri "$(KIPRJMOD)/libs/smartiepitext.pretty")(options "")(descr ""))
 )
