@@ -19,4 +19,5 @@
   (lib (name copal-cl-sb-12a)(type KiCad)(uri "$(KIPRJMOD)/libs/copal-cl-sb-12a.pretty")(options "")(descr ""))
   (lib (name logo)(type KiCad)(uri "$(KIPRJMOD)/libs/logo.pretty")(options "")(descr ""))
   (lib (name smartiepitext)(type KiCad)(uri "$(KIPRJMOD)/libs/smartiepitext.pretty")(options "")(descr ""))
+  (lib (name kicad-logo)(type KiCad)(uri "$(KIPRJMOD)/libs/kicad-logo.pretty")(options "")(descr ""))
 )

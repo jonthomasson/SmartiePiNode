@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SmartiePiNode-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1951,7 +1952,7 @@ Wire Wire Line
 Wire Wire Line
 	1640 5565 1640 5670
 $Comp
-L SPDT SW2
+L SPDT-RESCUE-SmartiePiNode SW2
 U 1 1 5B40FC31
 P 1855 6205
 F 0 "SW2" H 1855 6470 50  0000 C CNN
