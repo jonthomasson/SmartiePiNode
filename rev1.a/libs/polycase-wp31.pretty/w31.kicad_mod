@@ -1,0 +1,39 @@
+(module w31 (layer F.Cu) (tedit 5B4B80A5)
+  (fp_text reference REF** (at -30.51 30.48) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value w31 (at -30.51 16.42) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -30.52 23.09) (end -30.52 26.4682) (layer F.SilkS) (width 0.25))
+  (fp_circle (center -30.52 26.4682) (end -30.54 26.4464) (layer F.SilkS) (width 0.25))
+  (fp_circle (center 27.4936 23.09) (end 27.4936 26.4682) (layer F.SilkS) (width 0.25))
+  (fp_circle (center 27.4936 26.4682) (end 27.48 26.4464) (layer F.SilkS) (width 0.25))
+  (fp_circle (center 27.4936 -20.3948) (end 27.46 -17.0566) (layer F.SilkS) (width 0.25))
+  (fp_circle (center -30.52 -20.3948) (end -30.53 -17.0384) (layer F.SilkS) (width 0.25))
+  (model ${KIPRJMOD}/3dmodels/w31.step
+    (at (xyz -0.05511811023622047 -0.03937007874015748 1.102362204724409))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 270 0 90))
+  )
+  (model ${KIPRJMOD}/3dmodels/screw.step
+    (at (xyz 1.078740157480315 0.7874015748031497 -0.3149606299212598))
+    (scale (xyz 0.3 0.3 0.3))
+    (rotate (xyz 180 0 0))
+  )
+  (model ${KIPRJMOD}/3dmodels/screw.step
+    (at (xyz 1.078740157480315 -0.9055118110236221 -0.3149606299212598))
+    (scale (xyz 0.3 0.3 0.3))
+    (rotate (xyz 180 0 0))
+  )
+  (model ${KIPRJMOD}/3dmodels/screw.step
+    (at (xyz -1.181102362204725 -0.9055118110236221 -0.3149606299212598))
+    (scale (xyz 0.3 0.3 0.3))
+    (rotate (xyz 180 0 0))
+  )
+  (model ${KIPRJMOD}/3dmodels/screw.step
+    (at (xyz -1.181102362204725 0.7874015748031497 -0.3149606299212598))
+    (scale (xyz 0.3 0.3 0.3))
+    (rotate (xyz 180 0 0))
+  )
+)
