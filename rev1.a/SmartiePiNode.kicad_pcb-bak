@@ -3,7 +3,7 @@
   (general
     (links 240)
     (no_connects 0)
-    (area 81.72 21.7311 272.100001 156.925)
+    (area 98.984999 95.604999 170.825001 150.735001)
     (thickness 1.6)
     (drawings 128)
     (tracks 948)
@@ -3406,7 +3406,7 @@
       (xy 13.125516 -0.500886)) (layer F.SilkS) (width 0.01))
   )
 
-  (gr_text TM (at 110.66 109.18) (layer F.SilkS) (tstamp 5B5A1353)
+  (gr_text TM (at 110.45 119.32) (layer F.SilkS) (tstamp 5B5A1353)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
   (gr_text TM (at 160.47 97.08) (layer F.SilkS)

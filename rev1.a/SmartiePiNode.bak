@@ -192,8 +192,8 @@ Rev "1.a"
 Comp "Jon Thomasson"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "https://github.com/jonthomasson/SmartiePiNode"
+Comment4 "Github Repo:"
 $EndDescr
 $Comp
 L ISL91127IR U1
