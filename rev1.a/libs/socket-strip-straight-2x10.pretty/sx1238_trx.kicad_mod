@@ -62,7 +62,7 @@
   (pad 1 thru_hole circle (at -34.8 25.06) (size 0.635 0.635) (drill 0.3302) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -35.93137 24.59137) (size 0.635 0.635) (drill 0.3302) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -36.4 23.46) (size 0.635 0.635) (drill 0.3302) (layers *.Cu *.Mask))
-  (model "C:/Users/Stache/Documents/KiCad Projects/3DModels/Socket_Strips.3dshapes/Socket_Strip_Straight_2x10.wrl"
+  (model "C:/Users/Jons Macbook/Documents/KiCad Projects/3DModels/Socket_Strips.3dshapes/Socket_Strip_Straight_2x10.wrl"
     (at (xyz 0.05 -0.45 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

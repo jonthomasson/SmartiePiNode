@@ -71,7 +71,7 @@
     (zone_connect 2))
   (pad 21 thru_hole circle (at -0.81 0.81) (size 0.5 0.5) (drill 0.25) (layers *.Cu *.Mask)
     (zone_connect 2))
-  (model "C:/Users/Stache/Documents/KiCad Projects/3DModels/3d_smd_qfn/walter/smd_qfn/qfn-20.wrl"
+  (model "C:/Users/Jons Macbook/Documents/KiCad Projects/3DModels/3d_smd_qfn/walter/smd_qfn/qfn-20.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

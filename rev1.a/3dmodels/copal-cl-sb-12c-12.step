@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'C:/Users/Stache/Documents/KiCad 
+'C:/Users/Jons Macbook/Documents/KiCad 
 Projects/SmartiePiNode/rev1.a/3dmodels/copal-cl-sb-12c-12.step',
   '2018-07-09T06:23:35',('kicad StepUp'),('ksu MCAD'),
   'Open CASCADE STEP processor 7.2','FreeCAD','Unknown');

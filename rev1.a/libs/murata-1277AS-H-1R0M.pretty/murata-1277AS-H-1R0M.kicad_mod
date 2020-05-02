@@ -12,7 +12,7 @@
   (fp_line (start -1.6 -1.32) (end -1.6 -1.32) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -1.22 -0.01) (size 0.75 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.23 -0.01) (size 0.75 2.5) (layers F.Cu F.Paste F.Mask))
-  (model "C:/Users/Stache/Documents/KiCad Projects/3DModels/3d_smd_cap/walter/smd_cap/c_1206.wrl"
+  (model "C:/Users/Jons Macbook/Documents/KiCad Projects/3DModels/3d_smd_cap/walter/smd_cap/c_1206.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 0.9399999999999999 1.5 1))
     (rotate (xyz 0 0 0))
